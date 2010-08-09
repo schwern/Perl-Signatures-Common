@@ -1,5 +1,8 @@
 #!/usr/bin/perl -w
 
+# Test that an odd number of named parameters produces a warning
+# (an error might be better)
+
 package Foo;
 
 use strict;
@@ -8,7 +11,7 @@ use Test::More 'no_plan';
 
 use Method::Signatures;
 
-method foo(:$name, :$value) {
+func foo(:$name, :$value) {
     return $name, $value;
 }
 
@@ -20,7 +23,7 @@ TODO: {
 #line 20
     my @result;
     warning_like {
-        @result = Foo->foo(name => 42, value =>);
+        @result = foo(name => 42, value =>);
     } qr/^Odd number of elements in hash assignment at \Q$0\E line 22.$/;
 
     Test::More->builder->todo_end;

@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test this style of coding
+
 use strict;
 use warnings;
 

@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Basic test of func()
+
 use strict;
 use warnings;
 

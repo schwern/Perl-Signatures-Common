@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# A stress test of defaults
+
 use strict;
 use warnings;
 

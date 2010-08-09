@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Not so basic test of method.  Needs to be broken down.
+
 use strict;
 use Test::More 'no_plan';
 

@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test named parameters.  Needs to be broken down to exclude defaults.
+
 use strict;
 use Test::More 'no_plan';
 

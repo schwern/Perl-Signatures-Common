@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test that the signature can be scattered across multiple lines.
+
 package Foo;
 
 use strict;

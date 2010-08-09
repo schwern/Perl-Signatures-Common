@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test that signatures and attributes mix
+
 use strict;
 use warnings;
 

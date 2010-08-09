@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test that unknown traits are ignored
+
 use strict;
 use warnings;
 

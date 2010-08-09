@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test the read-only trait
+
 use strict;
 use warnings;
 

@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test defaults for parameters
+
 use strict;
 use warnings;
 

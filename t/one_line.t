@@ -1,12 +1,14 @@
 #!/usr/bin/perl -w
 
+# Test that declaring on one line works.
+
 use Test::More tests => 1;
 
 {
     package Thing;
 
     use Method::Signatures;
-    method foo {"wibble"}
+    func foo {"wibble"}
 
-    ::is( Thing->foo, "wibble" );
+    ::is( foo, "wibble" );
 }

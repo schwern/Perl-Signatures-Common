@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+# Test that signatures don't break the debugger.
+
 use Test::More 'no_plan';
 
 TODO: {

@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-# Test that caller() works
+# Test that caller() works as expected.
 
 {
     package Foo;
