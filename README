@@ -5,6 +5,9 @@ The intent is that signature authors will implement a common subset of this API,
 clearly define where they extend or differ from it, and make use of the tests
 to ensure a robust implementation.
 
+This is to be a collaboration between the contributors to the various Perl signature
+modules.  If you're one of them and don't have a commit bit, please let us know.
+
 There is NO CODE HERE just docs and tests.  If you want function signatures
 in Perl, please use one of these fine modules.
 
