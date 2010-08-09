@@ -1,5 +1,6 @@
 This is a package to hold common definitions of what Perl function and method
-signatures should look like and how they behave along with a test suite.
+signatures should look like and how they behave along with a test suite.  The
+documentation is in lib/Perl/Signatures/Common.pod and the tests are in t/
 
 The intent is that signature authors will implement a common subset of this API,
 clearly define where they extend or differ from it, and make use of the tests
