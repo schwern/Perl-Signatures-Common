@@ -1,0 +1,15 @@
+This is a package to hold common definitions of what Perl function and method
+signatures should look like and how they behave along with a test suite.
+
+The intent is that signature authors will implement a common subset of this API,
+clearly define where they extend or differ from it, and make use of the tests
+to ensure a robust implementation.
+
+There is NO CODE HERE just docs and tests.  If you want function signatures
+in Perl, please use one of these fine modules.
+
+* Method::Signatures::Simple
+* Method::Signatures
+* signatures
+* MooseX::Method::Signatures
+
