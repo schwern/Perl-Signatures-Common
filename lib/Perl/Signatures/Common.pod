@@ -58,6 +58,25 @@ Also allows signatures, very similar to Perl 6 signatures.
 
 And it does all this with B<no source filters>.
 
+=head2 Routine Traits
+
+Both C<func> and C<method> might be subject to a trait. A trait
+modifies how the code is evaluated, possibly doing some additional
+checks or enclosing the code into a transaction, for instance.
+
+The actual mechanism behind the modification is specific to each
+signature implementation, the Moose version would make the method an
+object and apply the trait to it, while a simpler implementation would
+simply wrap the code into another closure.
+
+The syntax for traits is compatible with Perl 6.
+
+    method foo($bar) does something { ... }
+    # or
+    func baz($bla) does othertrait { ... }
+
+The trait name is a symbol whose declaration is specific to each
+implementation.
 
 =head2 Signature syntax
 
